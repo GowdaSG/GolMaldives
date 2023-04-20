@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container {
+    background-image:url('./Assets/MLDAL-Winter-Escape-Desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+}
+.container .logo{
+    padding-top:10px;
+    padding-left: 20px;
+    font-size: 34px;
+    font-weight: bold;
+    color: thistle;
+    text-decoration: none;
+    font-family: cursive;
+}
+nav  {
+    margin-left: 560px;
+    margin-top: -30px;
+}
+ nav  a {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+	color: bisque;
+	text-transform: capitalize;
+    text-decoration: none;
+     padding: 10px;
+    
+}
+ nav  a:hover {
+    color:coral;
+}
+.container:hover{
+    background-color: white;
+}
+
+/* Style the Main Content */
+main {
+    padding: 30px 10px;
+}
+main h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+main p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+main a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0077b6;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+main a:hover {
+    background-color: #333;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.img1{
+    width: 50%;
+}
+.content1{
+    width: 50%;
+    padding: 60px;
+    font-family:monospace;
+}
+.i1{
+    border-radius: 5px;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.img2{
+    width: 50%;
+}
+.content2{
+    width: 50%;
+    padding: 60px;
+    font-family:monospace;
+}
+.i2{
+    border-radius: 5px;
+}
+.container3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.img3{
+    width: 50%;
+}
+.content3{
+    width: 50%;
+    padding: 60px;
+    font-family:monospace;
+}
+.i3{
+    border-radius: 5px;
+}
+.container4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.img4{
+    width: 50%;
+}
+.content4{
+    width: 50%;
+    padding: 60px;
+    font-family:monospace;
+}
+.i4{
+    border-radius: 5px;
+}
+.villa{
+    background-image:url('./12.-Excursions-6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    margin-top: 10px;
+}
+.heading h2{
+    text-align: center;
+    padding: 15px;
+    color: coral;
+}
+.villatype{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+ }
+ .gardenvilla{ 
+    background-color: white;
+    height: 500px;
+    width: 350px;
+ }
+ .villaname1 {
+    color: gold;
+    padding: 5px 120px;
+ }
+ .beachvilla{ 
+    background-repeat: no-repeat;
+    background-color: white;
+    background-blend-mode: color;
+    height: 500px;
+    width: 350px;
+ }
+ .villaname2 {
+    color: gold;
+    padding: 5px 120px;
+ }
+ .watervilla{ 
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+ }
+ .villaname3 {
+    color: gold;
+    padding: 5px 120px;
+ }
+ .experiences{
+    background-color: lavender;
+    margin-top: 10px;
+  }
+  .exp1 h2{ 
+    text-align: center;
+    padding-top: 20px;
+  }
+  .exp2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:10px;
+  } 
+  .surfing{ 
+    background-color: white;
+    height: 400px;
+    width: 350px;
+ }
+ .music{ 
+    background-color: white;
+    height: 400px;
+    width: 350px;
+ }
+ .scuba{ 
+    background-color: white;
+    height: 400px;
+    width: 350px;
+ }
+ .name1 {
+    text-align: center;
+    color: teal;
+    padding: 10px;
+  }
+  .name2 {
+    text-align: center;
+    color: teal;
+    padding: 10px;
+  }
+  .name3 {
+    text-align: center;
+    color: teal;
+    padding: 10px;
+  }
+  .footer{
+    background-color: #0077b6;
+    height: 450px;
+    margin-top: 10px;
+   }
+   .footerlogo h2{
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    font-family: cursive;
+   }
+ .footer1 {
+   display: flex;
+}
+.footerlinks {
+    padding-left: 600px;
+ }
+ .footer2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+ .quicklinks  {
+    color: white;
+    padding-left: 30px;
+ }
+ .quicklinks h3 {
+   text-decoration: underline;
+ }
+ .reachus{
+    color: white;
+  }
+  .reachus h3{
+    text-decoration: underline;
+  }
+  /* .reachus .contact h4:hover{ 
+    text-decoration: underline;
+  } */
+  .subscribe{ 
+    color: white;
+  }
+  .subscribe h3{ 
+   text-decoration: underline;
+  }
+  .btn{
+    color:darkgoldenrod;
+  }
+  .btn:hover{
+    background-color:blue;
+    color: black;
+  }
+  .footer3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+   }
+   
+
